@@ -1,0 +1,27 @@
+{
+  "name": "new-project",
+  "version": "1.0.0",
+  "description": "new project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx gulp",
+    "build": "npx gulp build"
+  },
+  "author": " <alices1308@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "animate.css": "^4.1.1",
+    "browser-sync": "^2.26.13",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2",
+    "node-sass": "^4.14.1",
+    "normalize-css": "^2.3.1",
+    "slick-carousel": "^1.8.1",
+    "wow.js": "^1.2.2"
+  }
+}
