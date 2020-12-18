@@ -1,7 +1,7 @@
 {
   "name": "new-project",
   "version": "1.0.0",
-  "description": "new project",
+  "description": "Go Surf project",
   "main": "index.js",
   "scripts": {
     "dev": "npx gulp",
