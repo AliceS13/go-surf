@@ -15,7 +15,7 @@ gulp.task('clean', async function() {
 
 gulp.task('scss', function() {
     return gulp.src('src/scss/**/*.scss')
-    .pipe(sass({outputStyle: 'compressed'}))
+    .pipe(sass({outputStyle: 'compressed'})) // для минификации compressed
     .pipe(autoprefixer({
         overrideBrowserslist: ['last 8 versions']
     }))
@@ -47,7 +47,6 @@ gulp.task('script', function() {
 
 gulp.task('js', function() {
     return gulp.src([
-        'node_modules/jquery/dist/jquery.js',
         'node_modules/slick-carousel/slick/slick.js',
         'node_modules/wow.js/dist/wow.js'
     ])
