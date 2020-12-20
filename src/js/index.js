@@ -14,7 +14,6 @@ const sliderIcons = {
 
 $('.header__slider').slick({
     infinite: true,
-    // fade: true,
     asNavFor: '.slider-header-dots',
     ...sliderIcons,
 });
@@ -28,7 +27,6 @@ $('.slider-header-dots').slick({
 $('.surf-slider').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
-    // autoplay: true,
     asNavFor: '.slider-map',
     responsive: [
         {
@@ -41,7 +39,6 @@ $('.surf-slider').slick({
             breakpoint: 800,
             settings: {
                 slidesToShow: 2,
-                // centerMode: true
             },
         },
         {
@@ -58,7 +55,6 @@ $('.surf-slider').slick({
 $('.slider-map').slick({
     slidesToShow: 8,
     slidesToScroll: 1,
-    // autoplay: true,
     arrows: false,
     asNavFor: '.surf-slider',
     focusOnSelect: true,
@@ -74,14 +70,12 @@ $('.slider-map').slick({
 
 $('.travel__slider').slick({
     infinite: true,
-    // autoplay: true,
     asNavFor: '.slider-header-dots',
     ...sliderIcons,
 });
 
 $('.sleep__slider').slick({
     infinite: true,
-    // autoplay: true,
     asNavFor: '.slider-header-dots',
     ...sliderIcons,
 });
@@ -89,7 +83,6 @@ $('.sleep__slider').slick({
 $('.shop__slider').slick({
     infinite: true,
     ...sliderIcons,
-    // autoplay: true,
 });
 
 $('.circle-content__box').on('click', function toggle() {
